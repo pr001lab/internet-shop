@@ -1,0 +1,7 @@
+.flexDirectionRow {
+  flex-direction: row;
+}
+
+.flexDirectionRow:not(:checked)>label::before {
+  width: 17px;
+}
